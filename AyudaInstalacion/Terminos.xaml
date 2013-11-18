@@ -1,0 +1,15 @@
+﻿<Window x:Class="AyudaInstalacion.Terminos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Terminos" Height="493" Width="828">
+    <Grid>
+        <Label Content="Google Chrome Terms of Service" FontSize="30" FontStretch="Normal" FontWeight="Normal" Height="58" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0,33,0,0" Name="label1" VerticalAlignment="Top" />
+        <ScrollViewer Height="200" FontSize="14" FontStretch="Condensed" HorizontalAlignment="Center" Margin="0,97,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="684" DataContext="{Binding}" CanContentScroll="False" BorderBrush="#FF1C1A1A" Background="#FFFDFDFD" Padding="10" FlowDirection="LeftToRight" BorderThickness="1" HorizontalContentAlignment="Stretch">
+              </ScrollViewer>
+        <Rectangle Height="200" HorizontalAlignment="Center" Margin="0,97,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="684" />
+        <RadioButton Content="I agree." Height="30" HorizontalAlignment="Left" Margin="64,314,0,0" Name="radioButton1" VerticalAlignment="Top" FontSize="14"  IsChecked="False" />
+        <RadioButton Content="I do not agree (It will not be installed)," Height="28" HorizontalAlignment="Left" Margin="64,350,0,0" Name="radioButton2" VerticalAlignment="Top" FontSize="14"  IsChecked="True" />
+        <Button Background="#FFB8BBC2" Content="Next &gt;" FontFamily="Verdana" FontSize="13" FontWeight="Bold" Foreground="White" Name="button1" Margin="622,383,64,38" Click="button1_Click" IsEnabled="True" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="AyudaInstalacion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="510" Width="665">
+    <Grid>
+        <Label Content="Get a fast, free web browser" Height="58" HorizontalAlignment="Center" Margin="0,62,0,0" Name="label1" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontStretch="Normal" FontWeight="Normal" FontSize="30" />
+        <Label Content="One browser for your computer, phone and tablet" Height="28" HorizontalAlignment="Center" Margin="0,105,0,0" Name="label2" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+        <Image Height="148" HorizontalAlignment="Center" Margin="98,171,99,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="306" Source="/AyudaInstalacion;component/Images/download-hero-win.jpg" />
+        <Button Content="Download Chrome" Height="38" HorizontalAlignment="Center" Margin="0,375,0,0" Name="button1" VerticalAlignment="Top" Width="205" Background="#FF205DE5" Foreground="White" FontSize="15" FontWeight="Bold" FontFamily="Verdana" Click="button1_Click" />
+    </Grid>
+</Window>
